@@ -8,6 +8,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <style>
+        .tm-social{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+
     <title>Olá, mundo!</title>
   </head>
   <body>
@@ -148,13 +155,13 @@
               </div>
             </div>
           </div>
-      </div>
+      
       
       <!--Deck Cards-->
 
       <!--Texto e Vídeo-->
       <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 mt-5 mb-5">
               <h3>Texto teste</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                   Magni nemo placeat at ipsa nihil, reiciendis culpa nesciunt quam? 
@@ -175,6 +182,79 @@
           </div>
       </div>
       <!--/Texto e Vídeo-->
+      <!--Formulário de Contato-->
+      <div class="row">
+          <div class="col-md-12">
+              <h4 class="text-center">
+                  Entre em contato com a gente
+              </h4>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Endereço de email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                </div>
+                
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-group d-flex justify-content-end">
+                    <button class="btn btn-outline-success">Enviar</button>
+                </div>
+              </form>
+          </div>
+          <div class="col-md-6">
+            <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14577.246714917888!2d-46.322505962938656!3d-24.020071851739218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d1fd90bb1bd5d3%3A0xc2cf30ee0333b6de!2sPraia%20Saco%20do%20Major!5e0!3m2!1spt-BR!2sbr!4v1619147861366!5m2!1spt-BR!2sbr" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy"></iframe>
+          </div>
+      </div>
+      
+      <!--/Formulário de Contato-->
+
+      <!--Rodapé-->
+      <hr>
+      <footer>
+        <div class="row mb-3">
+                <div class="col-md-12 d-flex justify-content-center">
+                    
+                        <a href="https://www.facebook.com" target="_blank" class="p-3">
+                            <img class="tm-social " src="assets/imagens/facebook.png" alt="Logo do Facebook">
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="p-3">
+                            <img class="tm-social " src="assets/imagens/instagram.png" alt="Logo do Instagram">
+                        </a>
+                        <a href="https://web.whatsapp.com/" target="_blank" class="p-3">
+                            <img class="tm-social " src="assets/imagens/whatsapp.png" alt="Logo do WhatsApp">
+                        </a>            
+                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">
+                        Todos os direitos reservados: Karolzinha &copy;
+                    </p>
+                </div>
+            </div>
+          
+        </div>
+        
+        
+    </footer>
+    <!--/Rodapé-->
+
+    </div>
+
+    
     
 
 
