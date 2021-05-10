@@ -1,0 +1,30 @@
+<div>
+    <div class="col-md-12 foto-fundo d-flex align-items-center justify-content-center">
+        <div class="text-center">
+            <h1 class="mb-4 texto">Login</h1>
+        <div class="col-md-12 bg-login d-flex align-items-center justify-content-center">
+            <div class="formulario">
+                <form>
+                    <div class="form-group">
+                      <label for="usuario">Usuario</label>
+                      <input [(ngModel)]='userLogin.usuario' type="text" class="form-control color" id="IdUsuario" placeholder="Usuário">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input [(ngModel)]='userLogin.senha' type="password" class="form-control color" id="IdSenha" placeholder="Senha">
+                        <i class="fa fa-eye color" aria-hidden="true" (click)="botaoClicado()"></i>
+                    </div>
+
+                    <div class="mt-5">
+                        <button type="submit" class="button color" (click)='login()'>Entrar</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+        <hr class="mt-4 mb-2 bg-white">
+        <p class="text-center texto">
+            Não tem um conta ? <a routerLink="/cadastrar">Cadastre-se</a>
+        </p>
+    </div>     
+</div>

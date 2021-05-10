@@ -1,0 +1,22 @@
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover, a p:hover, .nav-item:hover, .fa:hover {
+    transition: linear 400ms;
+    color: #E91C5D;
+}
+
+.fs-16 {
+    font-size: 16pt;
+}
+
+.nav-item, .fa, .color {
+    color: #616D72;
+}
+
+.navbar {
+    background-color: #151819;
+}
+

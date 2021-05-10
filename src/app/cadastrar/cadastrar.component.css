@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.color {
+    color: #616D72;
+}
+
+.foto-fundo {
+   background: url(../../environments/_img/cadastro.jpg);
+   min-height: 625px;
+   background-size: cover;
+   width: 100vw;
+   height: 100vh;
+}
+
+.bg-login {
+    background: rgba(33, 37, 40, 0.8);
+    width: 430px;
+    border-radius: 40px;
+}
+
+.formulario input, select {
+    border: none;
+    background: none;
+    border-bottom: solid 1px ;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario label {
+  visibility: hidden;
+}
+
+.fa-eye {
+  display: block;
+  position: relative;
+  left: 115px;
+  bottom: 27px;
+  cursor: pointer;
+}
+
+.formulario input:focus { 
+    box-shadow: 0, 0, 0, 0;
+    outline: none;
+    border-bottom: none;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 5px;
+    padding-left: 10px;
+    padding-inline: 15px;
+    border: none;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: #151819;
+}
+
+.button:hover {
+    transition: linear 400ms;
+    background: #151819;
+}
+
+/*Mudando o select*/
+
+.formulario select {
+  background: none;
+  color: #7D98A7;
+}
+
+.formulario select:focus {
+  border-radius: 5px;
+  border-bottom: none;
+}
+
+select option[value="user"] {
+  background: rgba(33, 37, 40, 0.8);
+  color: #616D72;
+}
+
+select option[value="Normal"] {
+  background: rgba(33, 37, 40, 0.8);
+  color: #616D72;
+}
+
+select option[value="Adm"] {
+  background: rgba(33, 37, 40, 0.8);
+  color: #616D72;
+}
+
+
+::-webkit-input-placeholder {
+  color: #616D72;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #616D72;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #616D72;  
+}
+
+:-ms-input-placeholder {  
+  color: #616D72;  
+}
