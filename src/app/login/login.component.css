@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.color {
+    color: #616D72;
+}
+.texto{
+    color:#151819;
+}
+
+.foto-fundo {
+   background: url(../../environments/_img/login.jpg);
+   min-height: 625px;
+   background-size: cover;
+   width: 100vw;
+   height: 100vh;
+}
+
+.bg-login {
+    background: rgba(33, 37, 40, 0.8);
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+}
+
+.formulario input {
+    border: none;
+    background: none;
+    border-bottom: solid 1px ;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario input:focus { 
+    box-shadow: 0, 0, 0, 0;
+    outline: none;
+    border-bottom: none;
+    border-radius: 5px;
+}
+
+.formulario label {
+    visibility: hidden;
+}
+
+.fa-eye {
+    display: block;
+    position: relative;
+    padding: 0;
+    left: 89px;
+    bottom: 27px;
+    cursor: pointer;
+}
+
+.button {
+    padding: 5px;
+    padding-left: 10px;
+    padding-inline: 15px;
+    border: none;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: #151819;
+}
+
+.button:hover {
+    transition: linear 400ms;
+    background: #E91C5D;
+    color: #151819;
+}
+
+p a {
+    text-decoration: none;
+    color:white;
+}
+
+p a:hover {
+    transition: linear 400ms;
+    color: #E91C5D;
+}
+
+::-webkit-input-placeholder {
+    color: #616D72;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  :-moz-placeholder { /* Firefox 18- */
+    color: #616D72;
+  }
+  
+  ::-moz-placeholder {  /* Firefox 19+ */
+    color: #616D72;  
+  }
+  
+  :-ms-input-placeholder {  
+    color: #616D72;  
+  }

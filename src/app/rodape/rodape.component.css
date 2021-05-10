@@ -1,0 +1,29 @@
+.color {
+    color: #616D72;
+}
+
+.page-footer {
+    background-color: #151819;
+}
+
+ul.social-network {
+    list-style: none;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0;
+    padding: 5px;
+}
+
+.fa {
+    font-size: 35pt;
+    color: #616D72;
+    padding: 10px;
+}
+
+i:hover {
+    transition: linear 400ms;
+    color: #E91C5D;
+}
