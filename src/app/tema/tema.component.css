@@ -1,0 +1,76 @@
+.fundo {
+    background: #030518;
+}
+
+.background {
+    background-color: #0A0C21;
+}
+
+.inicio {
+    text-decoration: none;
+    color: #7D98A7;
+    font-size: 14pt;
+}
+
+.inicio:hover {
+    transition: linear 400ms;
+    color: #F92A87;
+}
+
+.fs-54 {
+    font-size: 54px;
+    color: #7D98A7;
+}
+
+.fs-18 {
+    font-size: 18pt;
+    color: #7D98A7;
+}
+
+#descricao {
+    background: transparent;
+    border: solid 1px #7D98A7;
+    border-radius: 20px;
+}
+
+#descricao:focus {
+    border: none;
+}
+
+::-webkit-input-placeholder {
+    color: #7D98A7;
+    font-weight: 500;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #7D98A7;
+    text-transform: uppercase;
+}
+  
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #7D98A7;  
+}
+  
+:-ms-input-placeholder {  
+    color: #7D98A7;  
+}
+
+.btn-info {
+    border: none;
+    border-radius: 8px;
+    color: #0A0C21;
+    background: #7D98A7;
+    font-weight: bolder;
+}
+
+.btn-danger {
+    border: none;
+    border-radius: 8px;
+    color: #0A0C21;
+    background: #F92A87;
+    font-weight: bolder;
+}
+
+h2, tr {
+    color: #7D98A7;
+}

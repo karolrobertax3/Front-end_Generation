@@ -1,12 +1,11 @@
-import { Postagem } from "./Postagem"
+import { Postagens } from "./Postagens"
 
-export class User {
-    public id: number
+export class User{
+    public Id: number
     public nome: string
     public usuario: string
     public senha: string
-    public biografria: string
     public foto: string
-    public tipo: string
-    public postagem: Postagem[]
+    public tipo:string
+    public postagens : Postagens[]
 }

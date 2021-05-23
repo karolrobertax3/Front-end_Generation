@@ -7,12 +7,12 @@
                 <form>
                     <div class="form-group">
                       <label for="usuario">Usuario</label>
-                      <input [(ngModel)]='userLogin.usuario' type="text" class="form-control color" id="IdUsuario" placeholder="Usuário">
+                      <input [(ngModel)]='userLogin.usuario' name="usuario" type="text" class="form-control color" id="IdUsuario" placeholder="Usuário">
                     </div>
 
                     <div class="form-group">
                         <label for="senha">Senha</label>
-                        <input [(ngModel)]='userLogin.senha' type="password" class="form-control color" id="IdSenha" placeholder="Senha">
+                        <input [(ngModel)]='userLogin.senha' name="senha" type="password" class="form-control color" id="IdSenha" placeholder="Senha">
                         <i class="fa fa-eye color" aria-hidden="true" (click)="botaoClicado()"></i>
                     </div>
 
