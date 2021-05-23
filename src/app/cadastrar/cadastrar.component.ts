@@ -10,15 +10,16 @@ import { AuthService } from '../service/auth.service';
   styleUrls: ['./cadastrar.component.css']
 })
 export class CadastrarComponent implements OnInit {
+  user: User = new User()
+  confirmarSenha: string
+  tipoUsuario: string
+
   constructor(
     private authService: AuthService,
     private router: Router
   ) { }
 
-  user: User = new User
-  confirmarSenha: string
-  tipoUsuario: string
-
+  
   ngOnInit() {
     window.scroll(0,0)
   }

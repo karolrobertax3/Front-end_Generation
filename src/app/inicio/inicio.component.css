@@ -1,0 +1,160 @@
+.fundo {
+    background: #151819;
+}
+
+.background {
+    background-color: #151819;
+}
+
+.color {
+    color: #616D72;
+}
+
+.fs-54 {
+    font-size: 54px;
+}
+
+.fs-18 {
+    font-size: 18pt;
+}
+
+.button {
+    padding: 2px;
+    padding-left: 10px;
+    padding-inline: 15px;
+    border: none;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: #616D72;
+}
+
+.button:hover {
+    background: #151819;
+    border: solid 1px #616D72;
+    color: #616D72;
+    transition: linear 400ms;
+}
+
+.button-btn {
+    padding: 12px;
+    padding-left: 10px;
+    padding-inline: 15px;
+    margin-left: 8px;
+    border: solid 1px #616D72;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #616D72;
+    text-decoration: none;
+}
+
+.button-btn:hover {
+    background-color: #616D72;
+    color: #151819;
+    transition: linear 400ms;
+}
+
+.background-nav {
+    background-color: #151819;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.nav-link:hover {
+    color: #F92A87;
+    transition: linear 400ms;
+}
+
+
+/* MODAL */
+
+.modal-content {
+    background: rgba(125, 152, 167, 0.8);
+    border-radius: 10px;
+}
+
+.form-group label {
+    color: #151819;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group label a {
+    text-decoration: none;
+    color: rgba(249, 42, 135, 0.8);
+}
+
+.form-group .form-control {
+    border: solid 2px rgba(10, 12, 33, 0.5);
+    color: #151819;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.form-group .form-control:focus {
+    box-shadow: none;
+    outline: none;
+    border-bottom: none;
+    border-radius: 10px;
+    border: solid 2px rgba(10, 12, 33, 0.5);
+    background: transparent;
+}
+
+
+.form-group .form-control option {
+    color: #151819;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.modal-title {
+    margin-left: 137px;
+    color: #151819;
+    text-transform: uppercase;
+}
+
+.modal-footer .button-btn {
+    background-color: #151819;
+    border: none;
+}
+
+.modal-footer .button-btn {
+    padding: 12px;
+    background-color: #151819;
+    color: #616D72;
+}
+
+
+.modal-footer .button {
+    padding: 12px;
+    border: none;
+    background-color: #F92A87;
+}
+
+.modal-footer .button:hover {
+    border: none;
+    color: #151819;
+}
+
+::-webkit-input-placeholder {
+    color: #151819;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+:-moz-placeholder { /* Firefox 18- */
+    color: #151819;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+  
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #151819;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700; 
+}
+  
+:-ms-input-placeholder {  
+    color: #151819;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700; 
+}
