@@ -1,35 +1,35 @@
 .fundo {
-    background: #030518;
+    background: #151819;
 }
 
 .background {
-    background-color: #0A0C21;
+    background-color: #151819;
 }
 
 .inicio {
     text-decoration: none;
-    color: #7D98A7;
+    color: #616D72;
     font-size: 14pt;
 }
 
 .inicio:hover {
     transition: linear 400ms;
-    color: #F92A87;
+    color: #E91C5D;
 }
 
 .fs-54 {
     font-size: 54px;
-    color: #7D98A7;
+    color: #616D72;
 }
 
 .fs-18 {
     font-size: 18pt;
-    color: #7D98A7;
+    color: #616D72;
 }
 
 #descricao {
     background: transparent;
-    border: solid 1px #7D98A7;
+    border: solid 1px #616D72;
     border-radius: 20px;
 }
 
@@ -38,39 +38,39 @@
 }
 
 ::-webkit-input-placeholder {
-    color: #7D98A7;
+    color: #616D72;
     font-weight: 500;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-    color: #7D98A7;
+    color: #616D72;
     text-transform: uppercase;
 }
   
 ::-moz-placeholder {  /* Firefox 19+ */
-    color: #7D98A7;  
+    color: #616D72;  
 }
   
 :-ms-input-placeholder {  
-    color: #7D98A7;  
+    color: #616D72;  
 }
 
 .btn-info {
     border: none;
     border-radius: 8px;
-    color: #0A0C21;
-    background: #7D98A7;
+    color: #151819;
+    background: #616D72;
     font-weight: bolder;
 }
 
 .btn-danger {
     border: none;
     border-radius: 8px;
-    color: #0A0C21;
-    background: #F92A87;
+    color: #151819;
+    background: #E91C5D;
     font-weight: bolder;
 }
 
 h2, tr {
-    color: #7D98A7;
+    color: #616D72;
 }

@@ -1,0 +1,65 @@
+.fundo {
+    background: #151819;
+    overflow-x: hidden;
+}
+
+#descricao {
+    background: transparent;
+    border: solid 1px #616D72;
+    border-radius: 20px;
+}
+
+#descricao:focus {
+    border: none;
+}
+
+.btn-info {
+    border: none;
+    border-radius: 8px;
+    color: #151819;
+    background: #616D72;
+    font-weight: bolder;
+}
+
+
+.btn-info:hover {
+    border: none;
+}
+
+
+.btn-danger {
+    border: none;
+    border-radius: 8px;
+    color: #151819;
+    background: #E91C5D;
+    font-weight: bolder;
+}
+
+.form-group label {
+    color: #616D72;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+::-webkit-input-placeholder {
+    color: #616D72;
+    font-weight: 500;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #616D72;
+    text-transform: uppercase;
+}
+  
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #616D72;  
+}
+  
+:-ms-input-placeholder {  
+    color: #616D72;  
+}
+
+
+h1 {
+    color: #616D72;
+}
