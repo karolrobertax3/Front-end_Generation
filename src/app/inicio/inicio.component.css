@@ -62,7 +62,7 @@
 }
 
 .nav-link:hover {
-    color: #F92A87;
+    color: #E91C5D;
     transition: linear 400ms;
 }
 
@@ -128,7 +128,7 @@
 .modal-footer .button {
     padding: 12px;
     border: none;
-    background-color: #F92A87;
+    background-color: #E91C5D;
 }
 
 .modal-footer .button:hover {
