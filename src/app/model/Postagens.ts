@@ -6,6 +6,6 @@ export class Postagens{
     public titulo: string
     public texto: string
     public date: Date
-    public usuario: User
+    public usuarios: User
     public tema: Tema
 }
